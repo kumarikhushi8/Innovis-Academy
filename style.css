@@ -1,0 +1,101 @@
+/* Updated Landing Page CSS - Innovis Academy */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    color: white;
+    padding: 15px;
+    font-size: 28px;
+    text-align: right;
+    margin-right: 70px;
+    font-weight: bold;
+}
+
+h3{
+    color: rgb(201, 255, 120);
+    text-align: right;
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+
+h6{
+    line-height: 180%;
+    letter-spacing: 8px;
+}
+h5{
+    color: rgb(171, 254, 254);
+    text-align: right;
+    letter-spacing: 20px;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height:900px;
+    width: 200px;
+    padding: 15px 0;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #51575db9;
+    border-radius: 80px;
+    transform: scale(1.1);
+}
+
+
+footer {
+    background: #d0d4ffe5;
+    color: rgb(0, 45, 73);
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+   
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    }
+

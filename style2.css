@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #000000;
+    text-align: center;
+}
+
+header {
+    background: #0a131c;
+    color: white;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #04182c;
+    margin-top: 20px;
+}
+.academiclevels {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.level {
+    background: rgba(104, 89, 89, 0.614);
+    padding: 20px;
+    width: 850px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    display:inline-block;
+    background: #14202c;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 90px;
+}
+
+.level .button:hover {
+    background: #003366a8;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 25px;
+}
+
+.gallery {
+    display: flex;
+    gap: 30px;
+}
+
+.gallery img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.events {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0);
+}
+
+.events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.events li {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 5px;
+    background: #e6f2ff;
+    border-radius: 5px;
+    display: inline-block;
+    width: 80%;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.info {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.info h2 {
+    color: #0055aa;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: #000000;:;
+    color: rgb(115, 146, 165);
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+    .academic-levels {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery img {
+        width: 200px;
+        height: 120px;
+    }
+    .events li {
+        width: 100%;
+    }
+}
